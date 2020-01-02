@@ -4,57 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add a relevant page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Aubrey L. Fletcher SQL Programmer + Front End Developer</title>
 </head>
 
 <body>
     <main>
         <!-- ***********************  ABOUT / PROFILE  *********************** -->
         <header>
-            <h1>Aubrey L. Fletcher</h1>
-            <h2>SQL Programmer + Front End Developer</h2>
+            <div class="content-wrap">
+                <h1>Aubrey L. Fletcher</h1>
+                <h2>SQL Programmer + Front End Developer</h2>
 
-            <p>I am a programmer with over five years, working on Oracle SQL, and MySQL.</p>
-            <p>Currently working with HTML/CSS and JavaScript. </p>
+                <p>I am a programmer with over five years specializing in Oracle SQL with Ellucian Banner, and MySQL databases.</p>
+                <p>Currently working with HTML/CSS and JavaScript. </p>
+            </div>
         </header>
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-        <section>
-            <h2>Featured Projects</h2>
-            <p>View selected projects below. More information can be found at <a href="https://www.github.com/aubreyfletcher6682">github.com</a>.</p>
+        <section class="projects">
+            <div class="content-wrap divider">
+                <h2>Featured Projects</h2>
+                <p>View selected projects below. More information can be found at <a class="btn" href="https://www.github.com/aubreyfletcher6682">github.com</a>.</p>
+            </div>
+        </section>
 
-
-
-            <!-- ***********************  WORK EXPERIENCE  *********************** -->
-            <section>
+        <!-- ***********************  WORK EXPERIENCE  *********************** -->
+        <section class="work-experience">
+            <div class="content-wrap item-details divider">
                 <h2>Work Experience</h2>
 
                 <!-- Copy this whole <section> block to add more jobs. -->
-                <section>
-                    <h3>Programmer Analyst</h3>
-                    <p>Community College of Rhode Island</p>
-                    <p>December 2014 - May, 2016</p>
-                    <p>January 2016 - Current</p>
-                    <p>Responsible for developing queries for datablocks according to specifications and building datablocks using the Evisions Argos software.</p>
-                    <ul>
-                        <li>Created an email distribution system for New Hires entered into system for Human Resources</li>
-                        <li>Redesigned Websites for intregal parts of the college.</li>
-                        <li>Lead and Mentored new programmers at the college.</li>
-                    </ul>
-
-                    <h3>Junior DevOps</h3>
-                    <p>Easy Mortgage Apps, LLC.</p>
-                    <p>June 2016 - December, 2016</p>
-                    <p>As a Junior DevOp with EMA, I was responsible for using a JavaScript-based language called Appcelerator Titanium to build new components for their mortgage app. </p>
-                    <ul>
-                        <li>Created in PHP and MySQL an app that checked for errors in data that has been queried and fixes all errors based on the base table.</li>
-                    </ul>
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Programmer Analyst</h3>
+                        <p>Community College of Rhode Island</p>
+                        <p>December 2014 - May, 2016</p>
+                        <p>January 2016 - Current</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Responsible for developing queries for datablocks according to specifications and building datablocks using the Evisions Argos software.</p>
+                        <ul>
+                            <li>Created an email distribution system for New Hires entered into system for Human Resources</li>
+                            <li>Redesigned Websites for intregal parts of the college.</li>
+                            <li>Lead and Mentored new programmers at the college.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Junior DevOps</h3>
+                        <p>Easy Mortgage Apps, LLC.</p>
+                        <p>June 2016 - December, 2016</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>As a Junior DevOp with EMA, I was responsible for using a JavaScript-based language called Appcelerator Titanium to build new components for their mortgage app. </p>
+                        <ul>
+                            <li>Created in PHP and MySQL an app that checked for errors in data that has been queried and fixes all errors based on the base table.</li>
+                        </ul>
+                    </div>
                 </section>
                 <!-- End of Job block. -->
-            </section>
+            </div>
+        </section>
 
-            <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-            <section>
+        <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+        <section class="education">
+            <div class="content-wrap item-details">
                 <h2>Education</h2>
 
                 <!-- Copy this whole <section> block to add more schools. -->
@@ -71,20 +88,23 @@
                     </ul>
                 </section>
                 <!-- End of School block. -->
-            </section>
+            </div>
+        </section>
 
-            <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-            <footer>
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <footer>
+            <div class="content-wrap">
                 <h2>Let's Keep in Touch!</h2>
 
                 <!-- Social media and contact links. Add or remove any networks. -->
-                <ul>
+                <ul class="contact-list">
                     <li><a href="mailto:aubreyfletcher@outlook.com">aubreyfletcher@outlook.com</a></li>
                     <li><a href="https://aubreyfletcher.wordpress.com" target="_blank">https://aubreyfletcher.wordpress.com</a></li>
                     <li><a href="https://twitter.com/airwalkerx" target="_blank">Twitter</a></li>
                     <li><a href="https://www.linkedin.com/in/aubrey-fletcher-502a6665/" target="_blank">LinkedIn</a></li>
                 </ul>
-            </footer>
+            </div>
+        </footer>
     </main>
 </body>
 
